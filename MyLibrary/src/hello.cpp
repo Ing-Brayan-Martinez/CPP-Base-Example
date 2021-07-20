@@ -1,5 +1,4 @@
 #include <string>
-#include <hello.h>
 
 using namespace std;
 
