@@ -1,4 +1,5 @@
-﻿#include "../include/example.h"
+﻿#include <example.h>
+#include <hello.h>
 
 namespace Example {
 
@@ -11,6 +12,7 @@ namespace Example {
     }
 
     string getHello() {
+        const string msg = getMessager();
         const int result = getInt();
         return "hello";
     }

@@ -30,6 +30,9 @@ add_library (${LIB_NAME} STATIC
         MyLibrary/src/example.cpp
         MyLibrary/src/hello.cpp)
 
+target_include_directories(${LIB_NAME}
+        PRIVATE MyLibrary/include)
+
 
 
 # Definir aplicacion de pruebas
