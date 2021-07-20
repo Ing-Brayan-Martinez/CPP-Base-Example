@@ -4,7 +4,7 @@
 cmake_minimum_required (VERSION 3.14)
 
 # Project name
-project (API_Example VERSION 0.0.1)
+project (CPP_Base_Example VERSION 0.0.1)
 
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 11)
